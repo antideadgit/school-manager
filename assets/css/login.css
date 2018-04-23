@@ -1,0 +1,31 @@
+.form-text {
+    opacity: 50%;
+    text-transform: uppercase;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+input {
+    background: #273238;
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 90%;
+    height: 15px;
+    margin:0 auto;
+    color: gray;
+}
+input:focus {
+   outline: none;
+   color: #fff;
+}
+.login-module {
+    text-align: center;
+}
+.container {
+    margin-top: 5%;
+}
+.form-fields {
+    margin-top: 20%;
+    margin-bottom: 15%;
+}
