@@ -13,6 +13,7 @@ login.addEventListener('click', function(event) {
         height: 500
     })
     win.on('close', function() { win = null })
+    win.setResizable(false)
     win.loadURL(modalPath)
     win.show()
 })

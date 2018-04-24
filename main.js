@@ -21,6 +21,8 @@ function createWindow () {
     
     //win.webContents.openDevTools()
   
+    win.setResizable(false)
+
     win.on('closed', () => {
       win = null
     })
